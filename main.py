@@ -38,9 +38,9 @@ print(f' O produto que entrou no estoque hoje foi , {produto}' )
 
 ## usar o input para determinar a quantidade do produto ##
 
-quantidade = input(' digite a quantidade ')
+quantidade = int(input(' digite a quantidade '))
 
-print(f' a quantidade do produto é de {quantidade}')
+print(f' a quantidade do produto é de {quantidade}'+ ' unidades')
 
 data_val = input( 'Digite a data de validade do produto ')
 
